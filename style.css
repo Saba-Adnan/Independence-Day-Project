@@ -1,0 +1,349 @@
+/* Styling for the image section */
+.image-section {
+    text-align: center; /* Center text and inline elements */
+    margin-top: 10px; /* Space below the nav bar */
+    padding: 30px; /* Optional: Add padding around the section */
+}
+
+/* Style for the heading */
+.image-heading {
+    font-size: 70px;
+    margin-bottom: 20px; /* Space between heading and image */
+    color: green;
+}
+
+/* Image container */
+.image-container {
+    display: inline-block; /* Ensure the image container is centered */
+    overflow: hidden;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+/* Image styling */
+.image-container img {
+    width: 800px;
+    max-width: 900px; /* Adjust based on your image size */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s ease; /* Smooth zoom-in effect */
+}
+
+/* Zoom-in effect on hover */
+.image-container:hover img {
+    transform: scale(1.1); /* Zoom in the image */
+}
+
+/* Basic styling for navigation */
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; /* Adjust the padding to position it at the top */
+}
+
+/* Style the navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align list items horizontally */
+}
+
+/* Style the list items */
+nav ul li {
+    margin-left: 20px; /* Space between each link */
+}
+
+/* Style the links */
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: green;
+    font-weight: bold; /* Make the text bold */
+    font-size: 20px; /* Adjust font size */
+    padding: 10px 15px; /* Add padding around the links */
+    display: block; /* Make the link fill the li element */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color change */
+}
+
+/* Hover effect for the link and background color */
+nav ul li a:hover {
+    color: white; /* Change text color to white on hover */
+    background-color: green; /* Change background color to green on hover */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*  Allama Iqbal section */
+
+/* Section styling */
+.image-text-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Heading styling */
+.section-heading {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+    width: 100%;
+}
+
+/* Wrapper for image and text */
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Adjust space between image and text */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Image box styling */
+.image-box {
+    flex: 1;
+    max-width: 50%; /* Adjust width as needed */
+    text-align: center; /* Center the image if it's smaller */
+}
+
+/* Text box styling */
+.text-box {
+    flex: 1;
+    max-width: 50%; /* Adjust width as needed */
+    text-align: left;
+}
+
+/* Image styling */
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .image-box,
+    .text-box {
+        max-width: 100%;
+    }
+
+    .text-box {
+        text-align: center; /* Center text on small screens */
+    }
+}
+
+
+/* Section 2 styling */
+.image-text-section {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between image and text box */
+    padding: 20px;
+    gap: 40px; /* Space between image and text */
+}
+
+/* Image box styling */
+.image-box {
+    
+    max-width: 40%; /* Limit the width of the image box */
+}
+
+/* Text box styling */
+.text-box {
+    text-align: center;
+    flex: 1; /* Take up available space */
+    max-width: 60%; /* Limit the width of the text box */
+}
+
+/* Image styling */
+.image-box img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+
+/* Container for image row */
+.image-row {
+    display: flex;
+    gap: 10px; /* Adjust space between images */
+    justify-content: space-between; /* Ensure images fill the available width */
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+}
+
+/* Image styling */
+.image-row img {
+    flex: 1; /* Make each image take up an equal portion of the available space */
+    width: 65%; /* Ensure images fill the width of their container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: none; /* Prevent max-width restrictions */
+    border-radius: 10px; /* Optional: rounded corners */
+    transition: transform 0.3s ease; /* Optional: smooth hover effect */
+}
+
+/* Map of pakistan */
+
+/* Ensure the section content is centered on the page */
+.image-section {
+    display: flex;
+    flex-direction: column; /* Stack the heading and image vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    height: 100vh; /* Make the section full viewport height */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for better spacing on small screens */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width calculations */
+    overflow: hidden;
+}
+
+/* Styling for the heading */
+.image-heading {
+    margin-bottom: 20px; /* Space between heading and image */
+    font-size: 2em; /* Responsive font size */
+    color: #044e32; /* Example color for the heading */
+    
+}
+
+/* Container for the image */
+.image-container {
+    max-width: 100%; /* Limit the width of the image container */
+    width: 100%; /* Make the container responsive */
+}
+
+/* Image styling */
+.image-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+
+/* Video styling */
+
+
+/* Styling for the video section */
+.video-section {
+    display: flex;
+    justify-content: center; /* Center the video horizontally */
+    align-items: center; /* Center the video vertically */
+    padding: 150px;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+}
+
+/* Video container */
+.video-container {
+    max-width: 80%; /* Set a max-width for the video container */
+    width: 100%; /* Make the container responsive */
+    display: flex;
+    justify-content: center; /* Center the video inside the container */
+    position: relative; /* For responsive aspect ratio */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0; /* Ensure the height is proportional */
+}
+
+/* Make iframe responsive */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visibility */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .video-section {
+        padding: 10px;
+    }
+
+    .video-container {
+        max-width: 95%; /* Allow the video to take up more space on small screens */
+    }
+}
+
+/* flag style */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flag Container */
+.flag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.cities-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cities-image h2 {
+    margin-bottom: 15px;
+}
+
+.cities-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* footer styling  */
+
+/* Footer styling */
+.footer {
+    background-color: green;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+
+.social-media a {
+    margin: 0 10px; /* Adds 10px space on the left and right of each icon */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.social-media i {
+    color: #ffffff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover i {
+    color: #00aced; /* Change color on hover */
+}
+
+
